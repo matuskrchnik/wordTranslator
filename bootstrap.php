@@ -1,4 +1,5 @@
 <?php 
+error_reporting(E_ERROR | E_PARSE);
 require 'config.php';
 require 'src/functions.php';
 
