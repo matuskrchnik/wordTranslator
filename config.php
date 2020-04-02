@@ -4,7 +4,7 @@
     alebo navod tiez tu >> https://translatepress.com/docs/automatic-translation/generate-google-api-key/
 */
 
-define('GOOGLE_API_KEY', 'sem_vloz_api_kluc');
+define('GOOGLE_API_KEY', 'sem_vloz_dasdadapi_kluc');
 
 /*
     Zadaj od ktorej hodnoty (dlzka slova) chces aby slova prekladalo
