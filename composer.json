@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpword": "^0.17.0",
+        "dejurin/php-google-translate-for-free": "^1.0"
+    }
+}
