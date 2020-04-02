@@ -4,7 +4,7 @@ Info:
 Potrebujes:
   - Web server WAMP, XAMPP, LAMP, MAMP atp.
   - GOOGLE API Kluc, navod tu >> https://translatepress.com/docs/automatic-translation/generate-google-api-key/
-    - dasd
+    - Ak nemas vytvoreny Billing Account tak si ho budes musiet vytvorit. Nebudes nic platit len proste google to tak ma osetrene. Potom si ho mozes zrusit.
   
 Instalacia: 
   - rozbal zip do www zlozky tvojho web servera
