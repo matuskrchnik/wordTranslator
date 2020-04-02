@@ -1,3 +1,6 @@
+Info:
+  - Script ktory spravi z word dokumentu dvoj jazycny slovnik.
+
 Potrebujes:
   - Web server WAMP, XAMPP, LAMP, MAMP atp.
   - GOOGLE API Kluc, navod tu >> https://translatepress.com/docs/automatic-translation/generate-google-api-key/
