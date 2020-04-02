@@ -45,9 +45,9 @@ if(isset($_POST['submit'])){
             if(!in_array($word, $clean_words)){
                 array_push($clean_words, $word);
                 $table->addRow();
-                $table->addCell(2000)->addText(ucfirst($word));
+                $table->addCell(2000)->addText($word);
                 $table->addCell(2000)->addText("");
-                $table->addCell(2000)->addText(ucfirst(preklad($word)));
+                $table->addCell(2000)->addText(preklad($word));
             }
         }
     }
