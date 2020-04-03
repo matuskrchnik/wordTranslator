@@ -17,6 +17,10 @@ if(isset($_POST['submit'])){
     }
     else {echo "Can't Read that file.";}
 
+    foreach ($words as $key => $value) {
+        $words[$key] = lcfirst($value);
+    }
+
     $phpWord = new \PhpOffice\PhpWord\PhpWord();
     $section = $phpWord->addSection();
     $header = array('size' => 16, 'bold' => false);
@@ -38,10 +42,10 @@ if(isset($_POST['submit'])){
     $table->addCell(2000, $fancyTableCellStyle)->addText('English', $fancyTableFontStyle);
     $table->addCell(2000, $fancyTableCellStyle)->addText('Vyslovnost', $fancyTableFontStyle);
     $table->addCell(2000, $fancyTableCellStyle)->addText('Slovensky', $fancyTableFontStyle);
-
+    sort($words);
     foreach ($words as $word) {
         $word = preg_replace("/[^A-Za-z0-9 ]/", '', $word);
-        if(strlen($word) > WORD_LENGTH){
+        if(strlen($word) > WORD_LENGTH && !is_numeric($word)){
             if(!in_array($word, $clean_words)){
                 array_push($clean_words, $word);
                 $table->addRow();
