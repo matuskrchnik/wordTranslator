@@ -2,7 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 require 'config.php';
 require 'src/functions.php';
-
+ini_set('max_execution_time', '9999');
 ini_set("allow_url_fopen", 1);
 $vendorDirPath = realpath(__DIR__ . '/vendor');
 if (file_exists($vendorDirPath . '/autoload.php')) {
