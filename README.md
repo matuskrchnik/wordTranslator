@@ -14,5 +14,5 @@ Instalacia:
 Spustenie:
   - ! pred spustenim zatvor dokumenty "zdroj.docx" a "hotovySlovnik.docx" !
   - zamen "zdroj.docx" svojim word suborom
-  - localhost/wordTranslation-master (kedze sa vyuziva kniznica google translator a nepouzivat ziadny ajax tak to moze trvat dlhsie)
+  - localhost/wordTranslation-master (kedze sa vyuziva kniznica google translator a nepouzivam ziadny ajax tak to moze trvat dlhsie)
 
